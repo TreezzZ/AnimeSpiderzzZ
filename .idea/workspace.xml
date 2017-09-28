@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40f1c002-07cc-41cb-a38c-9f5c3e26b9b5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AnimeSpider/Database/AnimeDatabase.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AnimeSpider/Database/database.conf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AnimeSpider/launcher.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AnimeSpider/Spider/Anime.py" afterPath="$PROJECT_DIR$/AnimeSpider/Spider/Anime.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AnimeSpider/Database/AnimeDatabase.py" afterPath="$PROJECT_DIR$/AnimeSpider/Database/AnimeDatabase.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AnimeSpider/Spider/AnimeSpider.py" afterPath="$PROJECT_DIR$/AnimeSpider/Spider/AnimeSpider.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,7 +14,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/AnimeSpiderzzZ$AnimeSpider.coverage" NAME="AnimeSpider Coverage Results" MODIFIED="1506593012330" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AnimeSpider/Spider" />
-    <SUITE FILE_PATH="coverage/AnimeSpiderzzZ$launcher.coverage" NAME="launcher Coverage Results" MODIFIED="1506594081825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AnimeSpider" />
+    <SUITE FILE_PATH="coverage/AnimeSpiderzzZ$launcher.coverage" NAME="launcher Coverage Results" MODIFIED="1506610945830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AnimeSpider" />
     <SUITE FILE_PATH="coverage/AnimeSpiderzzZ$AnimeDatabase.coverage" NAME="AnimeDatabase Coverage Results" MODIFIED="1506591492226" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AnimeSpider/Database" />
   </component>
   <component name="FileEditorManager">
@@ -26,8 +22,8 @@
       <file leaf-file-name="AnimeSpider.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AnimeSpider/Spider/AnimeSpider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="31">
-              <caret line="55" column="16" lean-forward="false" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="16" />
+            <state relative-caret-position="-19">
+              <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
               <folding>
                 <element signature="e#24#34#0" expanded="true" />
               </folding>
@@ -48,48 +44,25 @@
       <file leaf-file-name="AnimeDatabase.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AnimeSpider/Database/AnimeDatabase.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+            <state relative-caret-position="1625">
+              <caret line="65" column="41" lean-forward="false" selection-start-line="65" selection-start-column="41" selection-end-line="65" selection-end-column="41" />
               <folding>
                 <element signature="e#24#46#0" expanded="true" />
-                <marker date="1506594071819" expanded="true" signature="1674:1737" ph="create table... AnimeTable" />
-                <marker date="1506594071819" expanded="true" signature="1674:1775" ph="create table... AnimeTable" />
-                <marker date="1506594071819" expanded="true" signature="1674:1776" ph="create table... AnimeTable" />
-                <marker date="1506594071819" expanded="true" signature="1674:1833" ph="create table... AnimeTable" />
-                <marker date="1506594071819" expanded="true" signature="1674:1835" ph="create table... AnimeTable" />
-                <marker date="1506594071819" expanded="true" signature="1674:1882" ph="create table... AnimeTable" />
-                <marker date="1506594071819" expanded="true" signature="1674:1883" ph="create table... AnimeTable" />
-                <marker date="1506594071819" expanded="true" signature="1674:1931" ph="create table... AnimeTable" />
-                <marker date="1506594071819" expanded="true" signature="1674:1979" ph="create table... AnimeTable" />
-                <marker date="1506594071819" expanded="true" signature="1674:2023" ph="create table... AnimeTable" />
-                <marker date="1506594071819" expanded="true" signature="1674:2065" ph="create table... AnimeTable" />
-                <marker date="1506594071819" expanded="true" signature="1674:2124" ph="create table... AnimeTable" />
-                <marker date="1506594071819" expanded="true" signature="1674:2142" ph="create table... AnimeTable" />
-                <marker date="1506594071819" expanded="true" signature="2411:2543" ph="INSERT INTO AnimeTable... " />
-                <marker date="1506594071819" expanded="true" signature="2411:2548" ph="INSERT INTO AnimeTable... " />
-                <marker date="1506594071819" expanded="true" signature="2422:2434" ph="insert into AnimeTable... " />
-                <marker date="1506594071819" expanded="true" signature="2422:2519" ph="insert into AnimeTable... " />
+                <marker date="1506610940045" expanded="true" signature="1674:1735" ph="create table... AnimeTable" />
+                <marker date="1506610940045" expanded="true" signature="1674:1771" ph="create table... AnimeTable" />
+                <marker date="1506610940045" expanded="true" signature="1674:1772" ph="create table... AnimeTable" />
+                <marker date="1506610940045" expanded="true" signature="1674:1829" ph="create table... AnimeTable" />
+                <marker date="1506610940045" expanded="true" signature="1674:1831" ph="create table... AnimeTable" />
+                <marker date="1506610940045" expanded="true" signature="1674:1878" ph="create table... AnimeTable" />
+                <marker date="1506610940045" expanded="true" signature="1674:1879" ph="create table... AnimeTable" />
+                <marker date="1506610940045" expanded="true" signature="1674:1927" ph="create table... AnimeTable" />
+                <marker date="1506610940045" expanded="true" signature="1674:1975" ph="create table... AnimeTable" />
+                <marker date="1506610940045" expanded="true" signature="1674:2019" ph="create table... AnimeTable" />
+                <marker date="1506610940045" expanded="true" signature="1674:2061" ph="create table... AnimeTable" />
+                <marker date="1506610940045" expanded="true" signature="1674:2120" ph="create table... AnimeTable" />
+                <marker date="1506610940045" expanded="true" signature="1674:2138" ph="create table... AnimeTable" />
+                <marker date="1506610940045" expanded="true" signature="2407:2559" ph="INSERT INTO animetable... " />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="database.conf" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AnimeSpider/Database/database.conf">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Anime.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AnimeSpider/Spider/Anime.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-144">
-              <caret line="18" column="26" lean-forward="false" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -110,10 +83,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/AnimeSpider/Database/database.conf" />
-        <option value="$PROJECT_DIR$/AnimeSpider/Spider/AnimeSpider.py" />
         <option value="$PROJECT_DIR$/AnimeSpider/launcher.py" />
         <option value="$PROJECT_DIR$/AnimeSpider/Spider/Anime.py" />
         <option value="$PROJECT_DIR$/AnimeSpider/Database/AnimeDatabase.py" />
+        <option value="$PROJECT_DIR$/AnimeSpider/Spider/AnimeSpider.py" />
       </list>
     </option>
   </component>
@@ -284,6 +257,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18020834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -314,18 +288,69 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/AnimeSpider/Database/AnimeDatabase.py</url>
-          <line>85</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="10" />
+      <option name="time" value="14" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/AnimeSpider/Spider/AnimeSpider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="55" column="16" lean-forward="false" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="16" />
+          <folding>
+            <element signature="e#24#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AnimeSpider/launcher.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AnimeSpider/Database/database.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AnimeSpider/Spider/Anime.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="18" column="26" lean-forward="false" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AnimeSpider/Database/AnimeDatabase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2225">
+          <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+          <folding>
+            <element signature="e#24#46#0" expanded="true" />
+            <marker date="1506610940045" expanded="true" signature="1674:1735" ph="create table... AnimeTable" />
+            <marker date="1506610940045" expanded="true" signature="1674:1771" ph="create table... AnimeTable" />
+            <marker date="1506610940045" expanded="true" signature="1674:1772" ph="create table... AnimeTable" />
+            <marker date="1506610940045" expanded="true" signature="1674:1829" ph="create table... AnimeTable" />
+            <marker date="1506610940045" expanded="true" signature="1674:1831" ph="create table... AnimeTable" />
+            <marker date="1506610940045" expanded="true" signature="1674:1878" ph="create table... AnimeTable" />
+            <marker date="1506610940045" expanded="true" signature="1674:1879" ph="create table... AnimeTable" />
+            <marker date="1506610940045" expanded="true" signature="1674:1927" ph="create table... AnimeTable" />
+            <marker date="1506610940045" expanded="true" signature="1674:1975" ph="create table... AnimeTable" />
+            <marker date="1506610940045" expanded="true" signature="1674:2019" ph="create table... AnimeTable" />
+            <marker date="1506610940045" expanded="true" signature="1674:2061" ph="create table... AnimeTable" />
+            <marker date="1506610940045" expanded="true" signature="1674:2120" ph="create table... AnimeTable" />
+            <marker date="1506610940045" expanded="true" signature="1674:2138" ph="create table... AnimeTable" />
+            <marker date="1506610940045" expanded="true" signature="2407:2559" ph="INSERT INTO animetable... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/AnimeSpider/Spider/AnimeSpider.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -367,15 +392,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1695">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AnimeSpider/Spider/Anime.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-144">
-          <caret line="18" column="26" lean-forward="false" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -387,10 +403,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/AnimeSpider/Spider/Anime.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="18" column="26" lean-forward="false" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/AnimeSpider/Spider/AnimeSpider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="55" column="16" lean-forward="false" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="16" />
+        <state relative-caret-position="-19">
+          <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
           <folding>
             <element signature="e#24#34#0" expanded="true" />
           </folding>
@@ -407,27 +431,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AnimeSpider/Database/AnimeDatabase.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+        <state relative-caret-position="1625">
+          <caret line="65" column="41" lean-forward="false" selection-start-line="65" selection-start-column="41" selection-end-line="65" selection-end-column="41" />
           <folding>
             <element signature="e#24#46#0" expanded="true" />
-            <marker date="1506594071819" expanded="true" signature="1674:1737" ph="create table... AnimeTable" />
-            <marker date="1506594071819" expanded="true" signature="1674:1775" ph="create table... AnimeTable" />
-            <marker date="1506594071819" expanded="true" signature="1674:1776" ph="create table... AnimeTable" />
-            <marker date="1506594071819" expanded="true" signature="1674:1833" ph="create table... AnimeTable" />
-            <marker date="1506594071819" expanded="true" signature="1674:1835" ph="create table... AnimeTable" />
-            <marker date="1506594071819" expanded="true" signature="1674:1882" ph="create table... AnimeTable" />
-            <marker date="1506594071819" expanded="true" signature="1674:1883" ph="create table... AnimeTable" />
-            <marker date="1506594071819" expanded="true" signature="1674:1931" ph="create table... AnimeTable" />
-            <marker date="1506594071819" expanded="true" signature="1674:1979" ph="create table... AnimeTable" />
-            <marker date="1506594071819" expanded="true" signature="1674:2023" ph="create table... AnimeTable" />
-            <marker date="1506594071819" expanded="true" signature="1674:2065" ph="create table... AnimeTable" />
-            <marker date="1506594071819" expanded="true" signature="1674:2124" ph="create table... AnimeTable" />
-            <marker date="1506594071819" expanded="true" signature="1674:2142" ph="create table... AnimeTable" />
-            <marker date="1506594071819" expanded="true" signature="2411:2543" ph="INSERT INTO AnimeTable... " />
-            <marker date="1506594071819" expanded="true" signature="2411:2548" ph="INSERT INTO AnimeTable... " />
-            <marker date="1506594071819" expanded="true" signature="2422:2434" ph="insert into AnimeTable... " />
-            <marker date="1506594071819" expanded="true" signature="2422:2519" ph="insert into AnimeTable... " />
+            <marker date="1506610940045" expanded="true" signature="1674:1735" ph="create table... AnimeTable" />
+            <marker date="1506610940045" expanded="true" signature="1674:1771" ph="create table... AnimeTable" />
+            <marker date="1506610940045" expanded="true" signature="1674:1772" ph="create table... AnimeTable" />
+            <marker date="1506610940045" expanded="true" signature="1674:1829" ph="create table... AnimeTable" />
+            <marker date="1506610940045" expanded="true" signature="1674:1831" ph="create table... AnimeTable" />
+            <marker date="1506610940045" expanded="true" signature="1674:1878" ph="create table... AnimeTable" />
+            <marker date="1506610940045" expanded="true" signature="1674:1879" ph="create table... AnimeTable" />
+            <marker date="1506610940045" expanded="true" signature="1674:1927" ph="create table... AnimeTable" />
+            <marker date="1506610940045" expanded="true" signature="1674:1975" ph="create table... AnimeTable" />
+            <marker date="1506610940045" expanded="true" signature="1674:2019" ph="create table... AnimeTable" />
+            <marker date="1506610940045" expanded="true" signature="1674:2061" ph="create table... AnimeTable" />
+            <marker date="1506610940045" expanded="true" signature="1674:2120" ph="create table... AnimeTable" />
+            <marker date="1506610940045" expanded="true" signature="1674:2138" ph="create table... AnimeTable" />
+            <marker date="1506610940045" expanded="true" signature="2407:2559" ph="INSERT INTO animetable... " />
           </folding>
         </state>
       </provider>

@@ -48,6 +48,8 @@ def handleUrl(text):
             AnimeName = childrenNodes[2].contents[1].string.strip()
             AnimeSize = childrenNodes[3].string.strip()
 
+            print('正在处理: 动漫名称: ' + AnimeName)
+
             # 这两个数据是js生成的，暂时不好提取
             AnimeDownload = ''
             AnimeFinish = ''

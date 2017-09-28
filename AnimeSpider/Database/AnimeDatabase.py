@@ -54,8 +54,8 @@ class AnimeDatabase(object):
             useSql = 'use animedatabase'
             cursor.execute(useSql)
             createTableSql = 'create table animetable(' \
-                          'id INT(10) NOT NULL AUTO_INCREMENT PRIMARY KEY ,' \
-                          'name VARCHAR(100) NOT NULL,' \
+                          'id INT NOT NULL AUTO_INCREMENT PRIMARY KEY ,' \
+                          'name VARCHAR(200) NOT NULL,' \
                           'type VARCHAR(20),' \
                           'date VARCHAR(20),' \
                           'size VARCHAR(20),' \
@@ -71,20 +71,11 @@ class AnimeDatabase(object):
         with self.__conn.cursor() as cursor:
             useSql = 'use animedatabase'
             cursor.execute(useSql)
-            insertSql = 'INSERT INTO animetable(name, type, date, size, download, finish, magnet) ' \
-                        'VALUES (%s, %s, %s, %s, %d, %d, %s)'
+            insertSql = "INSERT INTO animetable (name, type, date, size, download, finish, magnet) " \
+                        "VALUES ('%s', '%s', '%s', '%s', '%d', '%d', '%s')" % (anime.getName(),anime.getType(), anime.getDate(),
+                                               anime.getSize(), anime.getDownload(), anime.getFinish(), anime.getMagnet())
             try:
-                print(anime.getName())
-                print(anime.getType())
-                print(anime.getDate())
-                print(anime.getDownload())
-                print(anime.getFinish())
-                print(anime.getSize())
-                print(anime.getMagnet())
-
-                print(str(type(anime.getDownload())))
-                rs = cursor.execute(insertSql, (anime.getName(),anime.getType(), anime.getDate(),
-                                               anime.getSize(), anime.getDownload(), anime.getFinish(), anime.getMagnet()))
+                cursor.execute(insertSql)
                 self.__conn.commit()
             except:
                 print('插入数据异常')
