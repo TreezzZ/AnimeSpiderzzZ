@@ -14,8 +14,10 @@ class Anime(object):
 		self.__type = mtype
 		self.__date = mdate
 		self.__size = msize
-		self.__download = mdownload
-		self.__finish = mfinish
+		#self.__download = mdownload
+		#self.__finish = mfinish
+		self.__download = 0
+		self.__finish = 0
 		self.__magnet = mmagnet
 
 	def getName(self):

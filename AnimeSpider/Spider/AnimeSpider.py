@@ -3,9 +3,8 @@
 import bs4
 import requests
 from bs4 import BeautifulSoup
-
-from Anime import Anime
-
+from AnimeSpider.Spider.Anime import Anime
+from AnimeSpider.Database.AnimeDatabase import AnimeDatabase
 
 # 生成url链接
 # @param pageNum 访问的页数
@@ -37,10 +36,11 @@ def handleUrl(text):
     AnimeInfo = soup.find_all('tr', attrs={'class':'alt1'})
     AnimeInfo.extend(soup.find_all('tr', attrs= {'class':'alt2'}))
 
-    cnt = 1
     for tr in AnimeInfo:
         # 去掉非Tag子节点
         childrenNodes = [item for item in tr.contents if type(item) is bs4.element.Tag]
+
+        db = AnimeDatabase()
 
         try:
             AnimeDate = childrenNodes[0].string.strip()
@@ -55,17 +55,8 @@ def handleUrl(text):
             AnimeMagnet = getManget(r'http://www.36dm.com/' + childrenNodes[2].contents[1].get('href')).strip()
             anime = Anime(AnimeName, AnimeType, AnimeDate, AnimeSize, AnimeDownload, AnimeFinish, AnimeMagnet)
 
-            with open('data.txt', 'a') as f:
-                f.write(anime.getName())
-                f.write(anime.getMagnet())
-                f.write('\n')
+            db.insertData(anime)
 
-            print('------------------------')
-            print('cnt:' + str(cnt))
-            print('AnimeName: ' + anime.getName())
-            print('AnimeMagnet: ' + anime.getMagnet())
-            print('------------------------')
-            cnt += 1
         except:
             continue
 
@@ -78,15 +69,3 @@ def getManget(url):
     soup = BeautifulSoup(text, 'html.parser')
     magnet = soup.find('a', id='magnet').get('href')
     return magnet
-
-def main():
-    #pageNums = getAllPagesNum()
-
-    # 访问某一页
-    for pageNum in range(1, 2):
-        url = generateUrl(pageNum)
-        text = visitUrl(url)
-        handleUrl(text)
-
-if __name__ == '__main__':
-    main()
