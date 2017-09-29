@@ -2,6 +2,8 @@
 
 import bs4
 import requests
+import re
+import time
 from bs4 import BeautifulSoup
 from AnimeSpider.Spider.Anime import Anime
 from AnimeSpider.Database.AnimeDatabase import AnimeDatabase
@@ -43,9 +45,9 @@ def handleUrl(text):
         db = AnimeDatabase()
 
         try:
-            AnimeDate = childrenNodes[0].string.strip()
+            AnimeDate = handleDate(childrenNodes[0].string.strip())
             AnimeType = childrenNodes[1].contents[0].string.strip()
-            AnimeName = childrenNodes[2].contents[1].string.strip()
+            AnimeName = escapeCharacter(childrenNodes[2].contents[1].string.strip())
             AnimeSize = childrenNodes[3].string.strip()
 
             print('正在处理: 动漫名称: ' + AnimeName)
@@ -71,3 +73,21 @@ def getManget(url):
     soup = BeautifulSoup(text, 'html.parser')
     magnet = soup.find('a', id='magnet').get('href')
     return magnet
+
+# 处理提取的日期
+# @param AnimeDate 待处理日期
+# @return python格式日期
+def handleDate(AnimeDate):
+    dateList = re.match(r'([01][0-9])/([0-3][0-9]) ([0-2][0-9]):([0-5][0-9])', AnimeDate)
+    month = dateList.group(1)
+    day = dateList.group(2)
+    year = time.strftime('%Y')
+    return year + '-' + month + '-' + day
+
+# 对动漫名称中含有'和"进行转义，否则插入失败
+# @param AnimeName 待转义名称
+# @return 转义后的名称
+def escapeCharacter(AnimeName):
+    AnimeName = AnimeName.replace("'", "&0")
+    AnimeName = AnimeName.replace('"', "&0")
+    return AnimeName

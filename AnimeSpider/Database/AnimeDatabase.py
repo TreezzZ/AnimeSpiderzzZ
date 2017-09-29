@@ -57,11 +57,12 @@ class AnimeDatabase(object):
                           'id INT NOT NULL AUTO_INCREMENT PRIMARY KEY ,' \
                           'name VARCHAR(200) NOT NULL,' \
                           'type VARCHAR(20),' \
-                          'date VARCHAR(20),' \
+                          'date DATE,' \
                           'size VARCHAR(20),' \
                           'download INT,' \
                           'finish INT,' \
-                          'magnet VARCHAR(200) NOT NULL' \
+                          'magnet VARCHAR(200) NOT NULL,' \
+                          'UNIQUE(name)' \
             ')'
             cursor.execute(createTableSql)
             self.__conn.commit()
