@@ -15,16 +15,17 @@ class AnimeDatabase(object):
         self.__host = conf.get('db', 'db_host')
         self.__port = int(conf.get('db', 'db_port'))
         self.__charset = 'utf8mb4'
-        self.connectMysql()
+        self.__connectMysql()
 
-        if self.checkdb() == False:
-            self.createdb()
+        if self.__checkdb() == False:
+            self.__createdb()
+
 
     def __del__(self):
         self.__conn.close()
 
     # 连接数据库
-    def connectMysql(self):
+    def __connectMysql(self):
         self.__conn = False
         try:
             self.__conn = pymysql.connect(host=self.__host,
@@ -36,7 +37,7 @@ class AnimeDatabase(object):
             self.__conn = False
 
     # 判断数据库是否存在
-    def checkdb(self):
+    def __checkdb(self):
         with self.__conn.cursor() as cursor:
             sql = 'show databases'
             cursor.execute(sql)
@@ -47,7 +48,7 @@ class AnimeDatabase(object):
             return False
 
     # 创建数据库
-    def createdb(self):
+    def __createdb(self):
         with self.__conn.cursor() as cursor:
             createDatabaseSql = 'create database animedatabase'
             cursor.execute(createDatabaseSql)
