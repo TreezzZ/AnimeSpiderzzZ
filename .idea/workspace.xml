@@ -2,18 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40f1c002-07cc-41cb-a38c-9f5c3e26b9b5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AnimeSpider/Logging/Logging.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AnimeSpider/Logging/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AnimeSpider/Spider/spider.conf" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AnimeSpider/Spider/data.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AnimeSpider/Database/AnimeDatabase.py" afterPath="$PROJECT_DIR$/AnimeSpider/Database/AnimeDatabase.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AnimeSpider/Database/database.conf" afterPath="$PROJECT_DIR$/AnimeSpider/Database/database.conf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AnimeSpider/Email/Email.py" afterPath="$PROJECT_DIR$/AnimeSpider/Email/Email.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AnimeSpider/Email/email.conf" afterPath="$PROJECT_DIR$/AnimeSpider/Email/email.conf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AnimeSpider/Spider/Anime.py" afterPath="$PROJECT_DIR$/AnimeSpider/Spider/Anime.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AnimeSpider/Spider/AnimeSpider.py" afterPath="$PROJECT_DIR$/AnimeSpider/Spider/AnimeSpider.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AnimeSpider/launcher.py" afterPath="$PROJECT_DIR$/AnimeSpider/launcher.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -106,17 +94,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+            <state relative-caret-position="375">
+              <caret line="15" column="41" lean-forward="false" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Logging.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Logging.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AnimeSpider/Logging/Logging.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="400">
@@ -179,10 +167,10 @@
         <option value="$PROJECT_DIR$/AnimeSpider/Logging/Logging.py" />
         <option value="$PROJECT_DIR$/AnimeSpider/launcher.py" />
         <option value="$PROJECT_DIR$/AnimeSpider/Spider/AnimeSpider.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/AnimeSpider/Email/email.conf" />
         <option value="$PROJECT_DIR$/AnimeSpider/Database/database.conf" />
         <option value="$PROJECT_DIR$/AnimeSpider/Spider/spider.conf" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -767,14 +755,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AnimeSpider/launcher.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
@@ -858,6 +838,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
           <caret line="16" column="49" lean-forward="true" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="41" lean-forward="false" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
           <folding />
         </state>
       </provider>
