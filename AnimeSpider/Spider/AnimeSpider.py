@@ -107,7 +107,7 @@ class AnimeSpider(object):
                 AnimeUrl = r'http://www.36dm.com/' + childrenNodes[2].contents[1].get('href')
                 AnimeMagnet = self.__getManget(AnimeUrl).strip()
 
-                # 这两个数据是js生成的，暂时不好提取
+                # 通过分析网页发现，这两个数据是后台通过调用random()随机生成的，无参考意义
                 AnimeDownload = ''
                 AnimeFinish = ''
 
